@@ -1,0 +1,24 @@
+
+
+<div class="form-group row">
+    <label class="control-label col-sm-2">Task:</label> 
+    <input type="text" class="form-control" name="task">
+ 
+  </div>
+  <div class="form-group row">
+      <label class="control-label col-sm-2">Parent Task:</label>
+      <input type="text" class="form-control" name="task">
+    </div>
+    <div class="form-group row">
+        <label class="control-label col-sm-2">Priority:</label>
+        <input type="range" name="points" min="0" max="30">
+      </div>
+    <div class="form-group row">
+        <label class="control-label col-sm-2">Start Date:</label>
+        <input type="text" class="form-control" name="task">
+      </div>
+      <div class="form-group row col-sm-2">
+          <label class="control-label">End Date:</label>
+          <input type="text" class="form-control" name="task">
+        </div>
+        <button type="submit" class="btn pull-right" (click)="addTask()">addTask</button>
